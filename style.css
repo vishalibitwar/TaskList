@@ -110,6 +110,7 @@ ul .li .link:hover{
   }
   body{
     background: #f5f8fa;
+    font-family: 'Stylish', sans-serif;
   }
   #filter{
     margin-top: -0.3rem;
