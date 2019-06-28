@@ -42,7 +42,6 @@ body{
 
 
 input[type="text"],input[type= text]::placeholder{
-  font-family: cursive;
   font-size: 1.3rem;
   outline: none;
   text-transform: inherit;
@@ -114,6 +113,9 @@ ul .li .link:hover{
   }
   #filter{
     margin-top: -0.3rem;
+  }
+  .link{
+    font-family: 'Chewy';
   }
 }
 
