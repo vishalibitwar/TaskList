@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   background: orange;
+   font-family: cursive;  
+}
+  
+#container {
+  max-width: 600px;
+  margin: 5rem auto;
+  background: #f5f8fa;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0.2rem 0.2rem 1rem black;
+}
+
+.Add-field{
+  display: flex;
+  flex-direction: column; 
+}
+
+  #container .Add-field h1{
+     display: block;
+     text-shadow: 0.1rem  0.1rem  0.1rem #fff;
+     color: #333;
+     text-align: center;
+     font-size: 3rem;
+     margin-bottom: 1rem;
+  }
+
+   #container h2{    
+     font-size: 2rem;
+     color:coral;
+     text-align: center;
+     margin: 1rem;
+  }
+    
+
+
+input[type="text"],input[type= text]::placeholder{
+  font-family: cursive;
+  font-size: 1.3rem;
+  outline: none;
+  text-transform: inherit;
+  background: #f5f8fa;  
+  
+    margin: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #333;
+    width: 90%;
+
+}
+
+
+#add , #clear{
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    background: rgb(147, 240, 7);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+
+
+.link{
+  font-family: 'Chewy', cursive;
+}
+
+#clear{   
+  background: rgb(44, 42, 42);
+}
+
+
+ul .li {   
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 0.8rem;
+  border-bottom: 1px dotted;
+  font-size: 1.3rem;  
+}
+
+ul .li .link{
+  display: inline-block;
+  text-decoration: none;
+  color: red;
+  padding: 0.2;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+ul .li .link:hover{
+  opacity: 1;
+}
+
+@media(max-width:500px){
+  #container{
+      max-width: 400px;
+      margin: auto;
+      box-shadow: none;
+  }
+  body{
+    background: #f5f8fa;
+  }
+  #filter{
+    margin-top: -0.3rem;
+  }
+}
+
+
